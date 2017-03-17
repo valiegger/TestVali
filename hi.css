@@ -1,0 +1,24 @@
+*{
+    background-position: left, bottom;
+    background-size: 180%;
+}
+
+#pfeil{
+    position: absolute;
+    right: 50%;
+    bottom: 100%;
+}
+
+h1 {
+    line-height: 0.4em;
+    color: rgb(169, 165, 254);
+    font-family: Arial, serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-style: bold;
+}
+
+p{
+    font-family: Arial, serif;
+    font-size: 20px;
+}

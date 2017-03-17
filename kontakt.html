@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+</head>
+<body style="background-image:url(baum.jpg);">
+<h1>Kontaktformular</h1>
+
+<form id="formular">
+    <label for="mann">männlich</label>
+    <input tabindex="1" id="mann" type="radio" name="geschlecht">
+    <label for="frau">weiblich</label>
+    <input tabindex="3" id="frau" type="radio" name="geschlecht">
+
+    <label for="vorname" style="display: block">Vorname</label>
+    <input maxlength="20" tabindex="7" id="vorname" type="text" name="vorname">
+    <label for="nachname" style="display: block">Nachname</label>
+    <input maxlength="20" tabindex="6" id="nachname" type="text" name="nachname">
+    <label for="datum" style="display: block">Geburtstag</label>
+    <input tabindex="8" id="datum" type="date">
+    <label for="ort" style="display: block">PLZ/Ort</label>
+    <input maxlength="20" type="text" id="ort" name="ort">
+    <label for="strasse" style="display: block">Strasse/Nr</label>
+    <input maxlength="20" tabindex="9" id="strasse" type="text" name="strasse">
+    <label for="adresszusatz" style="display: block">Adresszusatz</label>
+    <input maxlength="20" tabindex="4" id="adresszusatz" type="text" name="addresszusatz">
+    <label for="mail" style="display: block">Mail</label>
+    <input maxlength="50" tabindex="5" id="mail" type="email" name="mail">
+    <label for="tel" style="display: block">Privat Tel</label>
+    <input maxlength="20" tabindex="2" id="tel" type="tel">
+    <label for="alter" style="display: block">über 18:</label>
+    <input type="checkbox" id="alter" name="Altersbeschränkung" checked>
+    <label style="display: block"></label>
+    <button type="button" value="zurück"><a href="test-html.html">Zurück</a></button>
+    <button type="reset" form="formular" value="löschen">Löschen</button>
+    <label style="display: block"></label>
+    <img src="NotenschlüsselGut.png">
+    <img src="LogoGut.png" alt="Firmenlogo">
+</form>
+
+</body>
+</html>
